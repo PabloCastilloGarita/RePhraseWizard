@@ -11,5 +11,5 @@
 }
 
 .desc {
-    @apply mt-24 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+    @apply mt-32 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
 }

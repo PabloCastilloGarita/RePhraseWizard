@@ -10,7 +10,7 @@ const Header = () => {
 					Github
 				</button>
 			</nav>
-			<h1 className='head_text'>Rephrase text with <br /> AI Intelligence</h1>
+			<h1 className='head_text'>Discover the Wizard's Secret <br /> to Perfect Paraphrasing!</h1>
 			<h2 className='desc'>
 				You no longer need to spend valuable time and energy grappling with complex sentence structures or struggling to find alternative ways to express your ideas. Our advanced algorithm and intuitive interface empower you to seamlessly rephrase any piece of text
 			</h2>
