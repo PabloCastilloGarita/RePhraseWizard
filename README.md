@@ -42,4 +42,4 @@ Technologies in used:
 
 3. The project should deploy successfully
 
-4. My project link 
+4. My project link https://rephrasewizard-pcg.netlify.app/
