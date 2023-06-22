@@ -2,16 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    background-color: #F3E8FF;
+}
+
 .github_btn {
-    @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+    @apply rounded-full border border-[#B68FD3] bg-[#B68FD3] py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
 }
 
 .head_text {
-    @apply absolute mt-2 text-5xl font-extrabold text-black sm:text-6xl text-center;
+    @apply absolute mt-2 font-extrabold text-[#8C4FA8] text-center md:text-6xl sm:text-5xl text-2xl;
 }
 
 .desc {
-    @apply mt-32 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+    @apply md:mt-[27] sm:mt-32 mt-16 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
 }
 
 .language_btn {
@@ -19,5 +23,5 @@
 }
 
 .text_area {
-    @apply w-full h-64 text-justify bg-gray-200 rounded-t-lg p-5 text-xl;
+    @apply w-full h-64 text-justify bg-gray-200 rounded-t-lg p-5 text-xl break-words resize-none;
 }

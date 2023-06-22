@@ -27,24 +27,28 @@ const Hero = () => {
         <li><button className='language_btn'>Spanish</button></li>
       </ul> */}
 
-      <div className='mx-36 grid grid-cols-2'>
+      <div className='md:mx-36 sm:mx-6 grid grid-cols-2'>
         <div className='bg-gray-200 rounded-t-lg mr-3'>
           <form onSubmit={handleFormSubmit}>
-            <textarea
-              cols='20'
-              rows='10'
-              className='text_area'
-              required
-              placeholder='Enter your text and let the magic begin!'
-              maxLength={500}
-              value={inputText}
-              onChange={handleInputChange}
-            />
-            <button type='submit' className='github_btn'>Wizardize</button>
+            <div className='flex justify-center'>
+              <textarea
+                cols='20'
+                rows='10'
+                className='text_area overflow-auto'
+                required
+                placeholder='Enter your text and let the magic begin!'
+                maxLength={300}
+                value={inputText}
+                onChange={handleInputChange}
+              />
+            </div>
+            <div className='flex justify-center bg-gray-200'>
+              <button type='submit' className='github_btn mb-2'>Wizardize</button>
+            </div>
           </form>
         </div>
-        <div className='bg-gray-200 rounded-t-lg h-full'>
-          <p className='text_area'>{outputText}</p>
+        <div className='bg-gray-200 rounded-t-lg h-full overflow-auto'>
+          <p className='text_area whitespace-pre-line'>{outputText}</p>
         </div>
       </div>
     </section>
