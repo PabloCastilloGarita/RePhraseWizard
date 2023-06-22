@@ -6,7 +6,10 @@ const Header = () => {
 		<header className='w-full flex justify-center items-center flex-col bg-[#F3E8FF]'>
 			<nav className='flex justify-between items-center w-full'>
 				<img src={logo} alt="logo" className='h-40 w-52 ml-8 object-contain' />
-				<button className='github_btn mr-8'>
+				<button className='github_btn mr-8'
+					type='button'
+					onClick={() => window.open('https://github.com/PabloCastilloGarita/RePhraseWizard')}
+				>
 					Github
 				</button>
 			</nav>
